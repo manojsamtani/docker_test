@@ -14,7 +14,7 @@ COPY app.py .
 COPY templates/index.html ./templates/
 
 # tell the port number the container should expose
-EXPOSE 5000
+EXPOSE 3000
 
 # run the application
 CMD ["python", "./app.py"]
